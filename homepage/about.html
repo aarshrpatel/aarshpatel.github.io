@@ -8,7 +8,26 @@
     </head>
     <body>
         <header>
-            <!-- Navigation bar (you can reuse the same header from your landing page) -->
+            <div class="navbar">
+                <h1>Aarsh Patel</h1> <!-- Your name here -->
+                <div class="nav_options">
+                    <ul>
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social_media"><!--Social Media Icons-->
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/aarsh_2004/" target="_blank"><img src="/homepage/images/instagram_logo_white.png"></a>
+                    <!--Facebook-->
+                    <a href="https://www.facebook.com/people/Aarsh-Patel/pfbid035Fj9svRG5DnwAFrQiDuRSPukNxpMNw84xf27EQkrEAawqqK57esxtFEJzf1qej3Ml/?mibextid=LQQJ4d" target="_blank"><img src="/homepage/images/facebook_logo_white.png"></a>
+                    <!--LinkedIn-->
+                    <a href="www.linkedin.com/in/aarsh-patel-54807a232" target="_blank"><img src="/homepage/images/linkedin_logo_white.png"></a>
+                </div>
+            </div>
+
         </header>
 
         <main>
@@ -26,7 +45,22 @@
         </main>
 
         <footer>
-            <!-- Footer (you can reuse the same footer from your landing page) -->
+            &copy; 2023 Aarsh Patel's Portfolio. All rights reserved.
         </footer>
+
+        <script>
+            // Example JavaScript for the About Me page
+            const aboutSection = document.querySelector('.about');
+    
+            // Add a mouseover event listener to the about section
+            aboutSection.addEventListener('mouseover', function () {
+                aboutSection.style.backgroundColor = '#f0f0f0';
+            });
+    
+            // Add a mouseout event listener to revert the background color
+            aboutSection.addEventListener('mouseout', function () {
+                aboutSection.style.backgroundColor = 'transparent';
+            });
+        </script>
     </body>
 </html>

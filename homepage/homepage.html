@@ -12,7 +12,7 @@
                 <h1>Aarsh Patel</h1> <!-- Your name here -->
                 <div class="nav_options">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="homepage.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Contact</a></li>
@@ -29,6 +29,7 @@
             </div>
 
         </header>
+        
         <main>
             <div class="container">
                 <section class="intro">
@@ -58,8 +59,19 @@
                 </section>
             </div>
         </main>
+
         <footer>
             &copy; 2023 Aarsh Patel's Portfolio. All rights reserved.
         </footer>
+
+        <script>
+            // Example JavaScript for the homepage
+            const introSection = document.querySelector('.intro');
+    
+            // Add a click event listener to the intro section
+            introSection.addEventListener('click', function () {
+                alert('Welcome to my portfolio!');
+            });
+        </script>
     </body>
 </html>
