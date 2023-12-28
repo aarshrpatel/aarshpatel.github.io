@@ -61,11 +61,13 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #27AE60;
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: blueviolet;
 }
 
 .sec3{
@@ -82,6 +84,11 @@ section{
     display: none;
     transform: translateY(0) scale(1);
 }
+
+.active{
+    display: block;
+}
+
 
 //Controls
 
